@@ -2,10 +2,12 @@
 This is a simple To-Do List web application that allows users to add tasks, mark them as complete, and delete tasks. It is a basic project using **HTML, CSS, and JavaScript.**
 
 ## Features
-### Add new tasks to the list.
-### Mark tasks as completed by clicking on them.
-### Delete tasks using the delete button.
-### Responsive design that works on mobile, tablet, and desktop screens.
+<ul>
+<li>Add new tasks to the list.</li>
+<li>Mark tasks as completed by clicking on them.</li>
+<li>Delete tasks using the delete button.</li>
+<li>Responsive design that works on mobile, tablet, and desktop screens.</li>
+</ul>
 
 ## Technologies Used
 ### HTML: Structure of the web application.
