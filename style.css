@@ -1,0 +1,160 @@
+*{
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: rgba(128, 56, 236, 0.782);
+}
+
+.container{
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 30px;
+    padding: 30px 40px;    
+}
+#newtask{
+    position: relative;
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px hsla(0,0%,0%,0.5);
+}
+#newtask input{
+    width: 70%;
+    height: 45px;
+    font-size: 16px;
+    border: 2px solid hsl(200,3%,88%);
+    padding: 12px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+#newtask input:focus{
+    outline: none;
+    border-style:solid;
+    border-color: rgba(128, 56, 236, 0.782);
+
+}
+#newtask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    font-weight: 500;
+    background: rgba(128, 56, 236, 0.782);
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+#newtask button:hover{
+    background: rgb(128, 56, 236);
+}
+#newtask button:active{
+    background:rgb(99, 12, 230) ;
+}
+#task{
+    background-color: white;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px hsla(0,0%,0%,0.5);
+    width: 100%;
+    position: relative;
+}
+.task{
+    background-color: hsl(0,0%,100%);
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid hsl(200, 3%, 80%);
+    cursor: pointer;
+}
+.task span{
+    font-size: 15px;
+    font-weight: 400;
+
+}
+.task button{
+    background-color: hsl(258,80%,60%);
+    color: hsl(0,0%,100%);
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.complete{
+    text-decoration: line-through;
+}
+/* For mobile devices (up to 767px) */
+@media only screen and (max-width: 767px) {
+    .container {
+        width: 90%;
+        min-width: 100%;
+        padding: 20px;
+    }
+
+    #newtask input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #newtask{
+        height: 150px;
+    }
+
+    #newtask button {
+        width: 100%;
+    }
+
+    #task {
+        padding: 20px;
+    }
+
+    .task {
+        font-size: 14px;
+    }
+}
+
+/* For tablets (768px to 1024px) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 60%;
+        min-width: 600px;
+    }
+
+    #newtask input {
+        width: 80%;
+    }
+
+    #newtask button {
+        width: 15%;
+    }
+}
+
+/* For laptops and desktops (1025px and above) */
+@media only screen and (min-width: 1025px) {
+    .container {
+        width: 40%;
+    }
+
+    #newtask input {
+        width: 70%;
+    }
+
+    #newtask button {
+        width: 20%;
+    }
+}
