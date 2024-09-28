@@ -10,13 +10,15 @@ This is a simple To-Do List web application that allows users to add tasks, mark
 </ul>
 
 ## Technologies Used
-### HTML: Structure of the web application.
-### CSS: Styling and layout of the web app (including media queries for responsiveness).
-### JavaScript: For the functionality of adding, marking, and deleting tasks.
+**HTML**: Structure of the web application.<br>
+**CSS**: Styling and layout of the web app (including media queries for responsiveness).<br>
+**JavaScript**: For the functionality of adding, marking, and deleting tasks.
 
 # How to Use
- Open the application. <br>
-Enter a task in the input field. <br>
-Click the Add button to add the task to the list. <br>
-Click on a task to mark it as complete (strike-through). <br>
-Click the trash icon to delete a task.
+<ul>
+<li>Open the application.</li> 
+<li>Enter a task in the input field.</li>
+<li>Click the Add button to add the task to the list.</li>
+<li>Click on a task to mark it as complete (strike-through).</li>
+<li>Click the trash icon to delete a task.</li>
+</ul>
